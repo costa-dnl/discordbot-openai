@@ -1,0 +1,26 @@
+{
+  "name": "discordbot-openai",
+  "version": "1.0.0",
+  "description": "A Discord bot using the OpenAI API",
+  "main": "src",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "costa-dnl <dev.costadnl@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/costa-dnl/discordbot-openai"
+  },
+  "license": "Apache-2.0",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "chalk": "^5.2.0",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.1.3",
+    "moment": "^2.29.4",
+    "openai": "^3.2.1",
+    "secure-db": "^3.2.1",
+    "util-stunks": "^1.1.9"
+  },
+  "type": "module"
+}
